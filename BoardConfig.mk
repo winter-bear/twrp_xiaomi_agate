@@ -160,6 +160,9 @@ TW_MAX_BRIGHTNESS := 2047
 TW_DEFAULT_BRIGHTNESS := 1200
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 
+# This device does not support fastboot boot, do *NOT* remove!
+TW_NO_FASTBOOT_BOOT := true
+
 # Debug
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true

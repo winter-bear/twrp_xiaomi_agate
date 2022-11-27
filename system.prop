@@ -1,2 +1,18 @@
 # USB
 ro.sys.usb.storage.type=mtp
+
+# Crypto
+ro.crypto.volume.filenames_mode=aes-256-cts
+
+# TEE
+ro.mtk_tee_gp_support=1
+ro.mtk_microtrust_tee_support=1
+
+# FBE
+fbe.metadata.wrappedkey=true
+
+# Gatekeeper
+ro.hardware.gatekeeper=beanpod
+
+# Kmsetkey
+ro.hardware.kmsetkey=beanpod

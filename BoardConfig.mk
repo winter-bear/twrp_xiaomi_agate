@@ -24,13 +24,27 @@ ALLOW_MISSING_DEPENDENCIES := true
 AB_OTA_UPDATER := true
 
 AB_OTA_PARTITIONS += \
-    system \
-    vendor \
-    product \
-    system_ext \
     boot \
+    dpm \
+    dtbo \
+    gz \
+    lk \
+    logo \
+    mcupm \
+    md1img \
+    pi_img \
+    preloader \
+    product \
+    scp \
+    spmfw \
+    sspm \
+    system \
+    system_ext \
+    tee \
+    vbmeta \
+    vbmeta_system \
     vbmeta_vendor \
-    vbmeta_system
+    vendor
 
 # Architecture
 TARGET_ARCH := arm64
